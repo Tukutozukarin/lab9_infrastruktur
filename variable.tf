@@ -3,5 +3,5 @@ variable "app_prefix" {
 }
 
 variable "pipeline_name" {
-  default = "lab_9terra-solution"
+  default = "lab9terra-solution"
 }
