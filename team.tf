@@ -23,4 +23,5 @@ member {
   id   = "${opsgenie_user.support.id}"
   role = "user"
 }
+
 }
