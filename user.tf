@@ -14,9 +14,4 @@ resource "opsgenie_user" "test_user" {
   timezone  = "Europe/Oslo"
 }
 
-resource "opsgenie_user_contact" "voice" {
-  user_id = "${opsgenie_user.benjaminle1998@live.no.id}"
-  to      = "47-46234111"
-  method  = "voice"
-}
 
