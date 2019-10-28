@@ -5,3 +5,5 @@ variable "app_prefix" {
 variable "pipeline_name" {
   default = "lab9terra-solution"
 }
+
+
