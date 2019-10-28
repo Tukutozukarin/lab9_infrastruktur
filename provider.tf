@@ -11,11 +11,6 @@ version = "1.0.0"
 username = "usertester"
 }
 
-provider "aws" {
-region     = "us-west-2"
-access_key = "my-access-key"
-secret_key = "my-secret-key"
-}
 
 provider "opsgenie" {
     api_key= "OPSGENIE_API_KEY"
